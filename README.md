@@ -1,5 +1,5 @@
 
-# Aual de kubernetes
+# Aula de kubernetes
 
 Obs: Projeto executado localmente utilizando kubernetes do Docker Desktop
 
