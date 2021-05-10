@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-ng
+  labels:
+    app: myapp-ng
+spec:
+  containers:
+  - name: myapp-ng
+    image: nginx
+    ports:
+    - containerPort: 80 
