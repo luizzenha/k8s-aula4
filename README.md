@@ -1,7 +1,7 @@
 
 # Aual de kubernetes
 
-## Executado localmente utilizando kubernetes do Docker Desktop
+Obs: Projeto executado localmente utilizando kubernetes do Docker Desktop
 
 ### Para executar e subir os pods:
 ``` kubectl apply -f service  ```
