@@ -14,6 +14,6 @@ Abra o browser e verifique se está carregando pagina do NGINX no seguinte ender
 
 ``` 127.0.0.1 ```
 
-Para testar o mysql execute a seguinte linha para subirmos um pod e acessar o mysql-client atrvés do nome servico quer irá direcionar o tráfego para o pod correto do mysql
+Para testar o mysql execute a seguinte linha para subirmos um novo pod e acessar o banco através do mysql-client e utilizando nome servico quer irá direcionar o tráfego para o pod correto do nosso banco (mysql)
 
 ``` kubectl run -it --rm --image=mysql:5.6 --restart=Never mysql-client -- mysql -h myapp-db-svc -pTeste@1234 ```
